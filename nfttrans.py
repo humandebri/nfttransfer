@@ -50,7 +50,7 @@ class MainClient:
         return
 
     def nftTransfer(self,token_id): #apiの引数を入力
-        print(token_id,self.to_address,self.myaddress)
+        # print(token_id,self.to_address,self.myaddress)
 
         types = Types.Record({
                 'to':Types.Variant({'address':Types.Text}),
